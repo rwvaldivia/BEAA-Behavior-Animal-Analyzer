@@ -1,4 +1,4 @@
-# BEAA - Behavior Animal Analyzer
+# BEAA - Behavior Animal Analyzer - Analisador de comportamento animal
 Open source software written in Java and C
 <h1 align="center">
 <img src="https://github.com/rwvaldivia/BEAA-Behavior-Animal-Analyzer/blob/master/Processamento.png">
