@@ -21,8 +21,7 @@ Os animais são filmados em caixas individuais diariamente com a periodicidade e
 
 Cada vídeo grava 12 animais simultaneamente durante o período de observação de 8 horas. Dessa forma são realizadas anotações sobre datas e horários das convulsões. A ferramenta deverá ser capaz de realizar tais apontamentos de forma on-line de modo a mitigar o trabalho feito por observadores humanos e apresentar os resultados para posterior análise e validação pelos especialistas.
 
-Assim a proposta de pesquisa é realizar o monitoramento de ratos de laboratório do Departamento de Neurofisiologia da Escola Paulista de Medicina e quantificar os resultados diários de convulsões epiléticas ocorridas através de um sistema baseado em Visão Computacional e Processamento de imagens. Será avaliada a viabilidade de implementação e execução do projeto e determinadas as métricas para avaliação da solução proposta.
-
+Assim a proposta de pesquisa é realizar o monitoramento de ratos de laboratório do Departamento de Neurofisiologia da Escola Paulista de Medicina e quantificar os resultados diários de convulsões epiléticas ocorridas através de um sistema baseado em Visão Computacional e Processamento de imagens. 
 
 ---
 
