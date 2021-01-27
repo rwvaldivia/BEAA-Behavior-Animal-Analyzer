@@ -1,0 +1,24 @@
+﻿Build started 13/08/2014 09:40:28.
+     1>Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\MyExecRefsDll\MyExecRefsDll\MyExecRefsDll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\MyExecRefsDll.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\MyExecRefsDll.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt MyExecRefsDll.cpp
+         MyExecRefsDll.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\MyExecRefsDll.exe.embed.manifest.res" x64\Debug\MyExecRefsDll_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\MyExecRefsDll\x64\Debug\MyExecRefsDll.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\MyExecRefsDll.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\MyExecRefsDll\x64\Debug\MyExecRefsDll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\MyExecRefsDll\x64\Debug\MyExecRefsDll.lib" /MACHINE:X64 x64\Debug\MyExecRefsDll.exe.embed.manifest.res
+         x64\Debug\MyExecRefsDll.obj
+         x64\Debug\stdafx.obj
+     1>MyExecRefsDll.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static double __cdecl MathFuncs::MyMathFuncs::Divide(double,double)" (__imp_?Divide@MyMathFuncs@MathFuncs@@SANNN@Z) referenced in function main
+     1>MyExecRefsDll.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static double __cdecl MathFuncs::MyMathFuncs::Multiply(double,double)" (__imp_?Multiply@MyMathFuncs@MathFuncs@@SANNN@Z) referenced in function main
+     1>MyExecRefsDll.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static double __cdecl MathFuncs::MyMathFuncs::Subtract(double,double)" (__imp_?Subtract@MyMathFuncs@MathFuncs@@SANNN@Z) referenced in function main
+     1>MyExecRefsDll.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static double __cdecl MathFuncs::MyMathFuncs::Add(double,double)" (__imp_?Add@MyMathFuncs@MathFuncs@@SANNN@Z) referenced in function main
+     1>C:\Users\lucianav\Documents\Visual Studio 2010\Projects\MyExecRefsDll\x64\Debug\MyExecRefsDll.exe : fatal error LNK1120: 4 unresolved externals
+     1>Done Building Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\MyExecRefsDll\MyExecRefsDll\MyExecRefsDll.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.74

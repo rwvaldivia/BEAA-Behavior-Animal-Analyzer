@@ -1,0 +1,37 @@
+﻿Build started 22/07/2014 08:45:36.
+     1>Project "c:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcessing01\ImageProcessing01\ImageProcessing01.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\lucianav\documents\visual studio 2010\Projects\ImageProcessing01\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\ImageProcessing01.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:\opencv248\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\opencv248\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(30): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(50): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(51): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(52): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(55): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(122): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocessing01\imageprocessing01\main.cpp(123): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ImageProcessing01.exe.embed.manifest.res" Debug\ImageProcessing01_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\lucianav\documents\visual studio 2010\Projects\ImageProcessing01\Debug\ImageProcessing01.exe" /INCREMENTAL /NOLOGO /LIBPATH:c:\opencv248\build\x64\vc10\lib opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ImageProcessing01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\lucianav\documents\visual studio 2010\Projects\ImageProcessing01\Debug\ImageProcessing01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\lucianav\documents\visual studio 2010\Projects\ImageProcessing01\Debug\ImageProcessing01.lib" /MACHINE:X86 Debug\ImageProcessing01.exe.embed.manifest.res
+         Debug\main.obj
+     1>opencv_imgproc248d.lib(opencv_imgproc248d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "c:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcessing01\ImageProcessing01\ImageProcessing01.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.65

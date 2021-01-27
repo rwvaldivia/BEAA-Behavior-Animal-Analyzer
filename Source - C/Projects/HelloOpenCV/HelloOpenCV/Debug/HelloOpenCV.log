@@ -1,0 +1,30 @@
+﻿Build started 05/03/2014 10:36:49.
+     1>Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\HelloOpenCV\HelloOpenCV.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\HelloOpenCV.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\HelloOpenCV.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:\opencv248\build\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HelloOpenCV.exe.embed.manifest.res" Debug\HelloOpenCV_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\Debug\HelloOpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:c:\opencv248\build\x86\vc10\lib opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HelloOpenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\Debug\HelloOpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\Debug\HelloOpenCV.lib" /MACHINE:X86 Debug\HelloOpenCV.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         Deleting file "Debug\HelloOpenCV.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\HelloOpenCV.exe.embed.manifest" /manifest Debug\HelloOpenCV.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HelloOpenCV.exe.embed.manifest.res" Debug\HelloOpenCV_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\Debug\HelloOpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:c:\opencv248\build\x86\vc10\lib opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HelloOpenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\Debug\HelloOpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\Debug\HelloOpenCV.lib" /MACHINE:X86 Debug\HelloOpenCV.exe.embed.manifest.res
+         Debug\main.obj
+         HelloOpenCV.vcxproj -> C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\Debug\HelloOpenCV.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\HelloOpenCV.unsuccessfulbuild".
+         Touching "Debug\HelloOpenCV.lastbuildstate".
+     1>Done Building Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\HelloOpenCV\HelloOpenCV\HelloOpenCV.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.29

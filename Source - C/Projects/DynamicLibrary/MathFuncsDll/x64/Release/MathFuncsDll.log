@@ -1,0 +1,29 @@
+﻿Build started 13/08/2014 11:14:39.
+     1>Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\MathFuncsDll\MathFuncsDll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\MathFuncsDll.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MATHFUNCSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\MathFuncsDll.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\x64\Release\MathFuncsDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\MathFuncsDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\x64\Release\MathFuncsDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\x64\Release\MathFuncsDll.lib" /MACHINE:X64 /DLL x64\Release\dllmain.obj
+         x64\Release\main.obj
+         x64\Release\MathFuncsDll.obj
+         x64\Release\MathFunctionsDll.obj
+         x64\Release\stdafx.obj
+            Creating library C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\x64\Release\MathFuncsDll.lib and object C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\x64\Release\MathFuncsDll.exp
+         Generating code
+         Finished generating code
+         MathFuncsDll.vcxproj -> C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\x64\Release\MathFuncsDll.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\x64\Release\MathFuncsDll.dll;#2" /manifest x64\Release\MathFuncsDll.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\MathFuncsDll.unsuccessfulbuild".
+         Touching "x64\Release\MathFuncsDll.lastbuildstate".
+     1>Done Building Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\DynamicLibrary\MathFuncsDll\MathFuncsDll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

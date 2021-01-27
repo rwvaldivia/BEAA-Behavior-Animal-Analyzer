@@ -1,0 +1,45 @@
+﻿Build started 10/11/2014 21:22:36.
+     1>Project "C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\ImageProcDLL\ImageProcDLL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\ImageProcDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\Java\jdk1.7.0_09\include\win32 /IC:\Java\jdk1.7.0_09\include\ /Ic:\opencv248\build\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IMAGEPROCDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>c:\opencv248\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>dllmain.cpp(228): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>dllmain.cpp(589): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>dllmain.cpp(590): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>dllmain.cpp(713): warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+     1>dllmain.cpp(714): warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+     1>dllmain.cpp(855): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>dllmain.cpp(896): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>dllmain.cpp(916): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\x64\Debug\ImageProcDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:c:\opencv248\build\x64\vc10\lib opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\ImageProcDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\x64\Debug\ImageProcDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\x64\Debug\ImageProcDLL.lib" /MACHINE:X64 /DLL x64\Debug\ImageProcDLL.dll.embed.manifest.res
+         x64\Debug\DebugT.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\ImageFrameBuffer.obj
+         x64\Debug\ImageProc.obj
+         x64\Debug\ImageProcDLL.obj
+         x64\Debug\stdafx.obj
+         ImageProcDLL.vcxproj -> C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\x64\Debug\ImageProcDLL.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\ImageProcDLL.dll.embed.manifest" /manifest x64\Debug\ImageProcDLL.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         ImageProcDLL.vcxproj -> C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\x64\Debug\ImageProcDLL.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\ImageProcDLL.unsuccessfulbuild".
+         Touching "x64\Debug\ImageProcDLL.lastbuildstate".
+     1>Done Building Project "C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\ImageProcDLL\ImageProcDLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.90

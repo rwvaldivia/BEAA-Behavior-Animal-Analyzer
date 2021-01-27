@@ -1,0 +1,20 @@
+﻿Build started 19/03/2014 10:44:27.
+     1>Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\EstudoOpenCV\EstudoOpenCV\EstudoOpenCV.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EstudoOpenCV.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:\opencv248\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\opencv248\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\EstudoOpenCV\Debug\EstudoOpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:c:\opencv248\build\x64\vc10\lib opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\EstudoOpenCV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\EstudoOpenCV\Debug\EstudoOpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lucianav\Documents\Visual Studio 2010\Projects\EstudoOpenCV\Debug\EstudoOpenCV.lib" /MACHINE:X86 Debug\EstudoOpenCV.exe.embed.manifest.res
+         Debug\main.obj
+     1>opencv_highgui248d.lib(opencv_highgui248d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Users\lucianav\Documents\Visual Studio 2010\Projects\EstudoOpenCV\EstudoOpenCV\EstudoOpenCV.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.55

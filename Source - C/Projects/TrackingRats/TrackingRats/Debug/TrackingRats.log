@@ -1,0 +1,60 @@
+﻿Build started 13/07/2014 17:36:59.
+     1>Project "c:\Users\lucianav\documents\visual studio 2010\Projects\TrackingRats\TrackingRats\TrackingRats.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\lucianav\documents\visual studio 2010\Projects\TrackingRats\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\TrackingRats.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:\opencv248\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(45): error C2065: 'SYSTEMTIME' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(45): error C2146: syntax error : missing ';' before identifier 'theTime'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(45): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(46): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(46): error C3861: 'GetLocalTime': identifier not found
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(50): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(50): error C2228: left of '.wYear' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(55): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(55): error C2228: left of '.wMonth' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(59): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(59): error C2228: left of '.wDay' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(63): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(63): error C2228: left of '.wHour' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(67): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(67): error C2228: left of '.wMinute' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(71): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(71): error C2228: left of '.wSecond' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(83): error C2065: 'SYSTEMTIME' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(83): error C2146: syntax error : missing ';' before identifier 'theTime'
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(83): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(84): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(84): error C3861: 'GetLocalTime': identifier not found
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(87): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(87): error C2228: left of '.wYear' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(90): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(90): error C2228: left of '.wMonth' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(94): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(94): error C2228: left of '.wDay' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(98): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(98): error C2228: left of '.wHour' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(102): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(102): error C2228: left of '.wMinute' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(106): error C2065: 'theTime' : undeclared identifier
+     1>c:\users\lucianav\documents\visual studio 2010\projects\trackingrats\trackingrats\main.cpp(106): error C2228: left of '.wSecond' must have class/struct/union
+                 type is ''unknown-type''
+     1>Done Building Project "c:\Users\lucianav\documents\visual studio 2010\Projects\TrackingRats\TrackingRats\TrackingRats.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.88

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets>
+    <project id="1">
+             <project_name>
+                 Analise de Comportamento Animal T3
+            </project_name>
+             <video_file>
+                 C:\ImageProc\Videos Exemplos\19_01_R_112013090000.avi
+            </video_file>
+            <sensibility>
+                 15
+            </sensibility>
+            <blur>
+                 10
+            </blur>
+            <regions>
+                    <region index="0000000001">
+                            <px1>
+                                 0000000088
+                            </px1>
+                            <py1>
+                                 0000000135
+                           </py1>
+                            <px2>
+                                 0000000135
+                            </px2>
+                            <py2>
+                                 0000000159
+                            </py2>
+                    </region>
+            </regions>
+    </project>
+    <project id="2">
+             <project_name>
+                 Projeto Demonstracao
+            </project_name>
+             <video_file>
+                 C:\ImageProc\Videos Exemplos\19_01_R_112013090000.avi
+            </video_file>
+            <sensibility>
+                 15
+            </sensibility>
+            <blur>
+                 10
+            </blur>
+            <regions>
+                    <region index="0000000001">
+                            <px1>
+                                 0000000088
+                            </px1>
+                            <py1>
+                                 0000000082
+                           </py1>
+                            <px2>
+                                 0000000134
+                            </px2>
+                            <py2>
+                                 0000000108
+                            </py2>
+                    </region>
+                    <region index="0000000002">
+                            <px1>
+                                 0000000138
+                            </px1>
+                            <py1>
+                                 0000000082
+                           </py1>
+                            <px2>
+                                 0000000187
+                            </px2>
+                            <py2>
+                                 0000000106
+                            </py2>
+                    </region>
+                    <region index="0000000003">
+                            <px1>
+                                 0000000045
+                            </px1>
+                            <py1>
+                                 0000000179
+                           </py1>
+                            <px2>
+                                 0000000085
+                            </px2>
+                            <py2>
+                                 0000000205
+                            </py2>
+                    </region>
+            </regions>
+    </project>
+</presets>

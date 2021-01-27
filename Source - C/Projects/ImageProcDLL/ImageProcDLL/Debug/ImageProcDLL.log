@@ -1,0 +1,15 @@
+﻿Build started 10/11/2014 20:52:37.
+     1>Project "C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\ImageProcDLL\ImageProcDLL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ImageProcDLL.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:\opencv248\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IMAGEPROCDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>c:\users\lucianav\documents\visual studio 2010\projects\imageprocdll\imageprocdll\br_com_protowork_engine_imageprocessthread.h(2): fatal error C1083: Cannot open include file: 'jni.h': No such file or directory
+     1>Done Building Project "C:\Users\lucianav\documents\visual studio 2010\Projects\ImageProcDLL\ImageProcDLL\ImageProcDLL.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.41
